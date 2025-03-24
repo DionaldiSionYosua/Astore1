@@ -13,3 +13,11 @@ Route::get('/profile', function () {
 Route::get('/keranjang', function () {
     return view('keranjang');
 });
+
+Route::get('/home_produk', function () {
+    return view('home_produk');
+});
+
+Route::get('/registrasi', function () {
+    return view('registrasi');
+});
